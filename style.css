@@ -1,0 +1,91 @@
+/*   
+# - para id
+. - para class
+  - para tag
+*/
+
+/*CABECALHOcabecalhoCABECALHOcabecalhoCABECALHOcabecalho*/
+/*body{
+    font-family: 'Montserrat';
+    font-weight: 700px;
+    font: bold;
+    size: 48px;
+    line-height: 30.51px;
+}*/
+.cabecalho{
+    color: #FF731A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo{
+    border-style: solid;
+    border-width: 3px;
+    padding: 21px 40px 21px 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+/*UFufUFufUFufUFufUFufUFufUFufUFufUFufUFufUFufUFufUFufUFuf*/
+.UF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo3{
+    color: #FF731A;
+}
+
+.botao{
+    width: 350px;
+    height: 40px;
+}
+/*MUNICIPIOSmunicipiosMUNICIPIOSmunicipios*/
+.contemunicipios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 15% 50px 15%;
+}
+
+.municipios_div{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px 50px 50px;
+}
+
+.municipios1, .municipios2, .municipios3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    border: solid;
+    border-color: #FF731A;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 5em 5em 5em 5em;
+}
+
+#muni{
+    min-width: 300px;
+    min-height: 30px;
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    border-color: #D9D9D9;
+    background-color: #D9D9D9;
+}

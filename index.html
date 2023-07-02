@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipios por UF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cabecalho">
+        <img class="logo" src="imgs/Assinatura Simbolo Laranja (1) 2.png" alt="">
+        <h1 class="titulo">Plataforma de localidades da EngNet</h1>
+    </div>
+
+    <div class="UF">
+        <h3 class="titulo3">Selecione uma UF</h3>
+        
+        <form action="">
+            <label for="mun"></label>
+            <select name="mun" id="muni" onclick="faztd()" required>
+                <option value="rr">RR</option>
+                <option value="ap">AP</option>
+                <option value="am">AM</option>
+                <option value="pa">PA</option>
+                <option value="ac">AC</option>
+                <option value="ro">RO</option>
+                <option value="to">TO</option>
+                <option value="ma">MA</option>
+                <option value="pi">PI</option>
+                <option value="ce">CE</option>
+                <option value="rn">RN</option>
+                <option value="pb">PB</option>
+                <option value="pe">PE</option>
+                <option value="al">AL</option>
+                <option value="se">SE</option>
+                <option value="ba">BA</option>
+                <option value="mt">MT</option>
+                <option value="df">DF</option>
+                <option value="go">GO</option>
+                <option value="ms">MS</option>
+                <option value="mg">MG</option>
+                <option value="es">ES</option>
+                <option value="rj">RJ</option>
+                <option value="sp">SP</option>
+                <option value="pr">PR</option>
+                <option value="sc">SC</option>
+                <option value="rs">RS</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="contemunicipios">
+        <div class="municipios_div">
+            <div class="municipios1">
+                <ol id="municipios"></ol>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
